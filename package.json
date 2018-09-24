@@ -1,0 +1,38 @@
+{
+  "name": "multistatge-node-app",
+  "version": "0.0.1",
+  "author": "Xiaoyu Zhou <xiaoyuz2011@gmail.com>",
+  "engines": {
+    "node": ">=5.0",
+    "npm": ">=3.3"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src",
+    "start": "node src/server/server",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback-boot": "^2.6.5",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^3.0.0",
+    "loopback-component-explorer": "^6.2.0",
+    "loopback": "^3.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-flow-vars": "^0.3.0",
+    "eslint-plugin-flowtype": "^2.2.6"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "readme": "README.md",
+  "keywords": []
+}
